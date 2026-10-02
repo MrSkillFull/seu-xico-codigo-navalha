@@ -1,5 +1,6 @@
-.gold-gradient-text {
-    background: linear-gradient(to right, #d4af37, #f3e5ab, #d4af37);
+.orange-gradient-text {
+    background: linear-gradient(to right, #F47E20, #FFB973, #F47E20);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200% auto;
@@ -17,4 +18,131 @@
     0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
     70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
     100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+/* =========================================================
+   Páginas institucionais (Termos de Uso, Política de
+   Privacidade e FAQ) — tipografia para blocos de texto
+   longo, já que o plugin "prose" do Tailwind não é usado.
+   ========================================================= */
+.legal-content h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+.legal-content h2:first-child {
+    margin-top: 0;
+}
+.legal-content h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #F47E20;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.legal-content p {
+    color: #d1d5db; /* gray-300 */
+    font-size: 0.95rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+.legal-content ul {
+    list-style: none;
+    margin: 0 0 1.25rem 0;
+    padding: 0;
+}
+.legal-content ul li {
+    position: relative;
+    color: #d1d5db;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.legal-content ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 9999px;
+    background-color: #F47E20;
+}
+.legal-content a {
+    color: #F47E20;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease;
+}
+.legal-content a:hover {
+    color: #ffffff;
+}
+.legal-content strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* FAQ — acordeão com <details>/<summary> */
+.faq-item {
+    background-color: #161616; /* brand-light */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+}
+.faq-item[open] {
+    border-color: rgba(244, 126, 32, 0.5);
+}
+.faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+.faq-item summary:hover {
+    color: #F47E20;
+}
+.faq-item summary .faq-icon {
+    flex-shrink: 0;
+    color: #F47E20;
+    transition: transform 0.3s ease;
+}
+.faq-item[open] summary .faq-icon {
+    transform: rotate(45deg);
+}
+.faq-item .faq-answer {
+    padding: 0 1.5rem 1.25rem 1.5rem;
+}
+.faq-item .faq-answer p {
+    color: #9ca3af; /* gray-400 */
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
+}
+.faq-item .faq-answer a {
+    color: #F47E20;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.faq-item .faq-answer a:hover {
+    color: #ffffff;
 }

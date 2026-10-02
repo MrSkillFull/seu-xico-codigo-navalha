@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola de Barbeiros Seu Xico - Torne-se um Profissional</title>
+    <title>Curso de Barbeiro Profissional | Código Navalha — Seu Xico</title>
+
+    <!-- Favicon -->
+     <link rel="icon" href="./images/seu-xico-brand-logo.png" type="image/png">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Curso de Barbeiro Profissional na Barbearia Seu Xico. Aprenda do zero ao avançado e conquiste sua independência financeira.">
-    
+    <meta name="description" content="Curso de Barbeiro Profissional Código Navalha, da Seu Xico. Aprenda do zero ao avançado e conquiste sua independência financeira com nosso método prático.">
+
     <!-- CSS -->
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,28 +20,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-brand-dark text-white font-sans antialiased selection:bg-brand-gold selection:text-black">
+<body class="bg-brand-dark text-white font-sans antialiased selection:bg-brand-orange selection:text-black">
 
     <!-- Navbar -->
-    <header class="fixed w-full top-0 z-50 bg-brand-dark/90 backdrop-blur-sm border-b border-white/10 transition-all duration-300" id="navbar">
+    <header class="fixed w-full top-0 z-50 bg-brand-dark/95 backdrop-blur-sm border-b border-brand-orange/20 transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-24">
                 <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <i class="fa-solid fa-scissors text-brand-gold text-3xl"></i>
-                    <div class="flex flex-col">
-                        <span class="font-heading font-bold text-2xl tracking-wider text-white uppercase leading-none">Seu Xico</span>
-                        <span class="text-[10px] text-brand-gold tracking-widest uppercase">Barbearia & Escola</span>
-                    </div>
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <img src="./images/seu-xico-brand-logo.png" alt="Seu Xico Barbearia" class="h-20 w-auto object-contain">
                 </div>
                 
                 <!-- Desktop Menu -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="#metodo" class="text-sm font-semibold text-gray-300 hover:text-brand-gold transition-colors">O Método</a>
-                    <a href="#modulos" class="text-sm font-semibold text-gray-300 hover:text-brand-gold transition-colors">O que vai aprender</a>
-                    <a href="#instrutor" class="text-sm font-semibold text-gray-300 hover:text-brand-gold transition-colors">Quem é Seu Xico</a>
+                    <a href="#metodo" class="text-sm font-semibold text-gray-300 hover:text-brand-orange transition-colors">O Método</a>
+                    <a href="#modulos" class="text-sm font-semibold text-gray-300 hover:text-brand-orange transition-colors">O que vai aprender</a>
+                    <a href="#instrutor" class="text-sm font-semibold text-gray-300 hover:text-brand-orange transition-colors">Quem é Seu Xico</a>
                 </nav>
 
                 <!-- CTA Button -->
@@ -51,7 +51,7 @@
                 
                 <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center">
-                    <a href="https://wa.me/5521972832618?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20curso%20de%20barbeiro." target="_blank" class="bg-brand-whatsapp text-white p-2 rounded-full mr-4 whatsapp-pulse">
+                    <a href="https://wa.me/5521972832618?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20curso%20de%20barbeiro." target="_blank" class="bg-brand-whatsapp text-white p-2 rounded-full mr-2 whatsapp-pulse">
                         <i class="fa-brands fa-whatsapp text-xl"></i>
                     </a>
                 </div>
@@ -60,20 +60,21 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-hero-pattern bg-cover bg-center bg-no-repeat min-h-screen flex items-center">
+    <section class="relative pt-36 pb-20 lg:pt-48 lg:pb-32 bg-hero-pattern bg-cover bg-center bg-no-repeat min-h-screen flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left flex flex-col lg:flex-row items-center">
             
             <div class="w-full lg:w-3/5 pr-0 lg:pr-12">
-                <div class="inline-block bg-brand-gold/20 border border-brand-gold/50 px-4 py-1.5 rounded-full mb-6">
-                    <span class="text-brand-gold font-semibold text-sm tracking-wide uppercase flex items-center gap-2">
+                <div class="inline-block bg-brand-orange/10 border border-brand-orange/40 px-4 py-1.5 rounded-full mb-6">
+                    <span class="text-brand-orange font-semibold text-sm tracking-wide uppercase flex items-center gap-2">
                         <i class="fa-solid fa-star"></i> Vagas Abertas para a Próxima Turma
                     </span>
                 </div>
                 <h1 class="font-heading text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
-                    TRANSFORME SUA PAIXÃO <br class="hidden sm:block"> EM UMA <span class="gold-gradient-text">PROFISSÃO RENTÁVEL</span>
+                    <span class="block text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-3 tracking-[0.2em]">CÓDIGO NAVALHA<span class="text-brand-orange">:</span></span>
+                    TRANSFORME SUA PAIXÃO <br class="hidden sm:block"> EM UMA <span class="orange-gradient-text">PROFISSÃO RENTÁVEL</span>
                 </h1>
                 <p class="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl mx-auto lg:mx-0 font-light">
-                    Aprenda do zero ao avançado na <strong class="text-white">Escola de Barbeiros Seu Xico</strong>. Método 100% prático para você dominar as tesouras, máquinas e conquistar sua independência financeira em meses.
+                    Aprenda do zero ao avançado no <strong class="text-white">Código Navalha do Seu Xico</strong>. Método 100% prático para você dominar as tesouras, máquinas e conquistar sua independência financeira em meses.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -81,7 +82,7 @@
                         <i class="fa-brands fa-whatsapp text-2xl"></i>
                         Garantir Minha Vaga Agora
                     </a>
-                    <a href="#metodo" class="bg-brand-light hover:bg-gray-700 text-white border border-gray-600 px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center">
+                    <a href="#metodo" class="bg-brand-light hover:bg-gray-800 text-white border border-gray-700 px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center">
                         Como funciona o curso?
                     </a>
                 </div>
@@ -91,22 +92,21 @@
                         <img class="w-10 h-10 rounded-full border-2 border-brand-dark" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&q=80" alt="Aluno">
                         <img class="w-10 h-10 rounded-full border-2 border-brand-dark" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Aluno">
                         <img class="w-10 h-10 rounded-full border-2 border-brand-dark" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=100&q=80" alt="Aluno">
-                        <div class="w-10 h-10 rounded-full border-2 border-brand-dark bg-brand-light flex items-center justify-center text-xs font-bold">+500</div>
+                        <div class="w-10 h-10 rounded-full border-2 border-brand-dark bg-brand-light flex items-center justify-center text-xs font-bold">+100</div>
                     </div>
-                    <p class="text-sm text-gray-400">Junte-se a mais de <span class="text-brand-gold font-bold">500 alunos</span> formados.</p>
+                    <p class="text-sm text-gray-400">Junte-se a mais de <span class="text-brand-orange font-bold">100 alunos</span> formados.</p>
                 </div>
             </div>
             
             <div class="hidden lg:block w-2/5">
-                <!-- Decorative Image/Element right side -->
                 <div class="relative">
-                    <div class="absolute inset-0 bg-brand-gold rounded-full opacity-20 blur-3xl filter"></div>
+                    <div class="absolute inset-0 bg-brand-orange rounded-full opacity-20 blur-3xl filter"></div>
                     <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80" alt="Barbeiro Cortando Cabelo" class="relative z-10 rounded-2xl shadow-2xl border border-white/10 transform rotate-2 hover:rotate-0 transition-transform duration-500">
                     
                     <!-- Floating Badge -->
-                    <div class="absolute -bottom-6 -left-10 bg-brand-light border border-brand-gold/30 p-4 rounded-xl shadow-xl z-20 flex items-center gap-4">
-                        <div class="bg-brand-gold/20 p-3 rounded-full">
-                            <i class="fa-solid fa-certificate text-brand-gold text-2xl"></i>
+                    <div class="absolute -bottom-6 -left-10 bg-brand-light border border-brand-orange/30 p-4 rounded-xl shadow-xl z-20 flex items-center gap-4">
+                        <div class="bg-brand-orange/10 p-3 rounded-full">
+                            <i class="fa-solid fa-certificate text-brand-orange text-2xl"></i>
                         </div>
                         <div>
                             <p class="font-bold text-white leading-tight">Certificado<br>Reconhecido</p>
@@ -121,33 +121,33 @@
     <section id="metodo" class="py-24 bg-brand-light relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-brand-gold font-semibold tracking-wider uppercase text-sm mb-2">Por que escolher o Seu Xico?</h2>
+                <h2 class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-2">Por que escolher o Seu Xico?</h2>
                 <h3 class="font-heading text-4xl md:text-5xl font-bold">UM MÉTODO FOCADO EM <span class="text-white">RESULTADOS REAIS</span></h3>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Benefit 1 -->
-                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-gold/30 transition-colors group">
-                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-gold/20 transition-colors">
-                        <i class="fa-solid fa-hand-holding-dollar text-3xl text-brand-gold"></i>
+                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-orange/50 transition-colors group">
+                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-orange/20 transition-colors">
+                        <i class="fa-solid fa-hand-holding-dollar text-3xl text-brand-orange"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-3 font-heading tracking-wide">Rápido Retorno</h4>
                     <p class="text-gray-400 text-sm leading-relaxed">Não perca anos estudando. Nosso curso é direto ao ponto para você começar a faturar cortando cabelo o mais rápido possível.</p>
                 </div>
                 
                 <!-- Benefit 2 -->
-                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-gold/30 transition-colors group">
-                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-gold/20 transition-colors">
-                        <i class="fa-solid fa-scissors text-3xl text-brand-gold"></i>
+                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-orange/50 transition-colors group">
+                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-orange/20 transition-colors">
+                        <i class="fa-solid fa-scissors text-3xl text-brand-orange"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-3 font-heading tracking-wide">100% Prático (Mão na Massa)</h4>
                     <p class="text-gray-400 text-sm leading-relaxed">A teoria é importante, mas aqui você aprende cortando. Modelos reais desde as primeiras semanas para você perder o medo.</p>
                 </div>
                 
                 <!-- Benefit 3 -->
-                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-gold/30 transition-colors group">
-                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-gold/20 transition-colors">
-                        <i class="fa-solid fa-store text-3xl text-brand-gold"></i>
+                <div class="bg-brand-dark p-8 rounded-2xl border border-white/5 hover:border-brand-orange/50 transition-colors group">
+                    <div class="bg-brand-light w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-orange/20 transition-colors">
+                        <i class="fa-solid fa-store text-3xl text-brand-orange"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-3 font-heading tracking-wide">Gestão de Barbearia</h4>
                     <p class="text-gray-400 text-sm leading-relaxed">Aprenda não apenas a cortar, mas a gerenciar seu próprio negócio, atrair clientes, precificar seu serviço e fidelizar o público.</p>
@@ -161,7 +161,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row gap-12 items-center">
                 <div class="lg:w-1/3">
-                    <h2 class="text-brand-gold font-semibold tracking-wider uppercase text-sm mb-2">O que você vai aprender</h2>
+                    <h2 class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-2">O que você vai aprender</h2>
                     <h3 class="font-heading text-4xl md:text-5xl font-bold mb-6 leading-tight">CRONOGRAMA <br>COMPLETO</h3>
                     <p class="text-gray-400 mb-8">Estruturamos o curso passo a passo. Mesmo que você nunca tenha pegado em uma tesoura na vida, sairá pronto para atuar em barbearias de alto padrão.</p>
                     <a href="https://wa.me/5521972832618?text=Gostaria%20de%20receber%20a%20grade%20completa%20do%20curso!" target="_blank" class="text-brand-whatsapp font-bold hover:text-white transition-colors flex items-center gap-2 group">
@@ -173,58 +173,58 @@
                 
                 <div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <!-- Module 1 -->
-                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-gold">
+                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-orange shadow-lg">
                         <h4 class="text-lg font-bold mb-2 flex justify-between items-center">
                             <span>Módulo 1: Fundamentos</span>
-                            <span class="text-brand-gold/50 text-2xl"><i class="fa-solid fa-1"></i></span>
+                            <span class="text-brand-orange/30 text-2xl"><i class="fa-solid fa-1"></i></span>
                         </h4>
                         <ul class="text-gray-400 text-sm space-y-2">
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Biossegurança e Higiene</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Conhecendo Ferramentas</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Divisões Cranianas</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Postura Profissional</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Biossegurança e Higiene</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Conhecendo Ferramentas</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Divisões Cranianas</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Postura Profissional</li>
                         </ul>
                     </div>
                     
                     <!-- Module 2 -->
-                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-gold">
+                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-orange shadow-lg">
                         <h4 class="text-lg font-bold mb-2 flex justify-between items-center">
                             <span>Módulo 2: Tesoura e Clássicos</span>
-                            <span class="text-brand-gold/50 text-2xl"><i class="fa-solid fa-2"></i></span>
+                            <span class="text-brand-orange/30 text-2xl"><i class="fa-solid fa-2"></i></span>
                         </h4>
                         <ul class="text-gray-400 text-sm space-y-2">
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Técnicas de Tesoura</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Cortes Clássicos (Social, Pompadour)</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Texturização e Encaixe</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Secagem e Finalização</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Técnicas de Tesoura</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Cortes Clássicos (Social, Pompadour)</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Texturização e Encaixe</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Secagem e Finalização</li>
                         </ul>
                     </div>
                     
                     <!-- Module 3 -->
-                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-gold">
+                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-orange shadow-lg">
                         <h4 class="text-lg font-bold mb-2 flex justify-between items-center">
                             <span>Módulo 3: Fade & Máquinas</span>
-                            <span class="text-brand-gold/50 text-2xl"><i class="fa-solid fa-3"></i></span>
+                            <span class="text-brand-orange/30 text-2xl"><i class="fa-solid fa-3"></i></span>
                         </h4>
                         <ul class="text-gray-400 text-sm space-y-2">
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Degradê (Low, Mid, High Fade)</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Taper Fade & Burst Fade</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Técnicas com Máquina de Acabamento</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Freestyle Básico (Riscos)</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Degradê (Low, Mid, High Fade)</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Taper Fade & Burst Fade</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Técnicas com Máquina de Acabamento</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Freestyle Básico (Riscos)</li>
                         </ul>
                     </div>
                     
                     <!-- Module 4 -->
-                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-gold">
+                    <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-orange shadow-lg">
                         <h4 class="text-lg font-bold mb-2 flex justify-between items-center">
                             <span>Módulo 4: Barboterapia</span>
-                            <span class="text-brand-gold/50 text-2xl"><i class="fa-solid fa-4"></i></span>
+                            <span class="text-brand-orange/30 text-2xl"><i class="fa-solid fa-4"></i></span>
                         </h4>
                         <ul class="text-gray-400 text-sm space-y-2">
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Design de Barba</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Uso correto da Navalha</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Toalha Quente e Spa da Barba</li>
-                            <li><i class="fa-solid fa-check text-brand-gold mr-2 text-xs"></i> Pigmentação (Bônus)</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Design de Barba</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Uso correto da Navalha</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Toalha Quente e Spa da Barba</li>
+                            <li><i class="fa-solid fa-check text-brand-orange mr-2 text-xs"></i> Pigmentação (Bônus)</li>
                         </ul>
                     </div>
                 </div>
@@ -235,17 +235,17 @@
     <!-- About Instructor -->
     <section id="instrutor" class="py-24 bg-wood-pattern bg-cover bg-center bg-fixed">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-brand-dark/80 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-brand-gold/20 flex flex-col md:flex-row items-center gap-12 shadow-2xl">
-                <div class="md:w-1/2 relative">
+            <div class="bg-brand-dark/90 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-brand-orange/20 flex flex-wrap flex-col md:flex-row items-center gap-12 shadow-2xl">
+                <div class="md:flex-1 min-w-0 relative">
                     <img src="./images/seu-xico.png" alt="Mestre Seu Xico" class="rounded-2xl shadow-xl w-full object-cover aspect-square grayscale hover:grayscale-0 transition-all duration-500">
-                    <div class="absolute -bottom-6 -right-6 bg-brand-gold text-brand-dark p-6 rounded-xl shadow-lg transform rotate-3">
+                    <div class="absolute -bottom-6 -right-6 bg-brand-orange text-brand-dark p-6 rounded-xl shadow-lg transform rotate-3">
                         <p class="font-heading text-4xl font-bold">15+</p>
                         <p class="font-bold text-sm leading-tight uppercase">Anos de<br>Experiência</p>
                     </div>
                 </div>
                 
-                <div class="md:w-1/2">
-                    <h2 class="text-brand-gold font-semibold tracking-wider uppercase text-sm mb-2">Seu Mentor</h2>
+                <div class="md:flex-1 min-w-0">
+                    <h2 class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-2">Seu Mentor</h2>
                     <h3 class="font-heading text-4xl md:text-5xl font-bold mb-6">CONHEÇA <br>O SEU XICO</h3>
                     <p class="text-gray-300 mb-6 leading-relaxed">
                         Referência na região, Seu Xico construiu sua barbearia do zero e hoje lidera uma equipe de profissionais de elite. Após anos formando seus próprios funcionários, decidiu abrir sua metodologia para o público.
@@ -256,14 +256,48 @@
                     
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-center gap-3">
-                            <div class="bg-brand-light p-2 rounded-full text-brand-gold"><i class="fa-solid fa-trophy"></i></div>
+                            <div class="bg-brand-light p-2 rounded-full text-brand-orange"><i class="fa-solid fa-trophy"></i></div>
                             <span class="font-semibold text-gray-200">Mais de 5.000 cortes realizados</span>
                         </li>
+                        <!-- (esperando resposta - informação pode ser falsa)
                         <li class="flex items-center gap-3">
-                            <div class="bg-brand-light p-2 rounded-full text-brand-gold"><i class="fa-solid fa-users"></i></div>
+                            <div class="bg-brand-light p-2 rounded-full text-brand-orange"><i class="fa-solid fa-users"></i></div>
                             <span class="font-semibold text-gray-200">Fundador de 3 Barbearias de Sucesso</span>
                         </li>
+                        -->
                     </ul>
+                </div>
+
+                <!-- Prêmios & Reconhecimentos (prova visual) -->
+                <div class="w-full border-t border-brand-orange/20 pt-10 flex flex-col md:flex-row items-center gap-10">
+                    <!-- Lista de conquistas -->
+                    <div class="md:w-1/2">
+                        <h4 class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-award"></i> Prêmios &amp; Reconhecimentos
+                        </h4>
+                        <h5 class="font-heading text-2xl md:text-3xl font-bold mb-6">RECONHECIDO <span class="text-brand-orange">EM TODO O BRASIL</span></h5>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <div class="bg-brand-light p-2 rounded-full text-brand-orange"><i class="fa-solid fa-trophy"></i></div>
+                                <span class="font-semibold text-gray-200">Prêmio Barbeiros do Brasil</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="bg-brand-light p-2 rounded-full text-brand-orange"><i class="fa-solid fa-medal"></i></div>
+                                <span class="font-semibold text-gray-200">Prêmio Tesoura de Ouro</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="bg-brand-light p-2 rounded-full text-brand-orange"><i class="fa-solid fa-certificate"></i></div>
+                                <span class="font-semibold text-gray-200">Reconhecimento nacional</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Prova visual -->
+                    <div class="md:w-1/2">
+                        <img src="./images/seu-xico-premios.jpeg"
+                             alt="Troféus e certificados dos prêmios recebidos pelo Seu Xico"
+                             loading="lazy"
+                             class="rounded-2xl shadow-xl w-full border border-brand-orange/20 object-cover object-top max-h-[480px]">
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,7 +307,7 @@
     <section class="py-24 bg-brand-light">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-brand-gold font-semibold tracking-wider uppercase text-sm mb-2">Histórias de Sucesso</h2>
+                <h2 class="text-brand-orange font-semibold tracking-wider uppercase text-sm mb-2">Histórias de Sucesso</h2>
                 <h3 class="font-heading text-4xl font-bold">QUEM FAZ, <span class="text-white">RECOMENDA</span></h3>
             </div>
             
@@ -281,31 +315,31 @@
                 <!-- Testimonial 1 -->
                 <div class="bg-brand-dark p-8 rounded-2xl relative">
                     <i class="fa-solid fa-quote-right absolute top-6 right-6 text-4xl text-brand-light opacity-50"></i>
-                    <div class="flex text-brand-gold mb-4 text-sm">
+                    <div class="flex text-brand-orange mb-4 text-sm">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="text-gray-300 text-sm mb-6 italic">"Eu trabalhava como estoquista e ganhava um salário mínimo. Fiz o curso do Seu Xico à noite, me dediquei, e hoje tenho minha própria cadeira na barbearia. Minha renda triplicou em menos de 1 ano."</p>
+                    <p class="text-gray-300 text-sm mb-6 italic">"Eu trabalhava como estoquista e ganhava um salário mínimo. Fiz o Código Navalha à noite, me dediquei, e hoje tenho minha própria cadeira na barbearia. Minha renda triplicou em menos de 1 ano."</p>
                     <div class="flex items-center gap-4">
                         <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&w=100&q=80" alt="Lucas" class="w-12 h-12 rounded-full object-cover">
                         <div>
                             <h5 class="font-bold">Lucas Mendes</h5>
-                            <span class="text-xs text-brand-gold">Barbeiro Profissional</span>
+                            <span class="text-xs text-brand-orange">Barbeiro Profissional</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="bg-brand-dark p-8 rounded-2xl relative border border-brand-gold/20 transform md:-translate-y-4">
+                <div class="bg-brand-dark p-8 rounded-2xl relative border border-brand-orange/20 transform md:-translate-y-4">
                     <i class="fa-solid fa-quote-right absolute top-6 right-6 text-4xl text-brand-light opacity-50"></i>
-                    <div class="flex text-brand-gold mb-4 text-sm">
+                    <div class="flex text-brand-orange mb-4 text-sm">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="text-gray-300 text-sm mb-6 italic">"A didática do Seu Xico é incrível. Ele pega na sua mão e ensina o macete do degradê perfeito. Terminei o curso na sexta e na segunda já fui contratado para trampar numa barbearia no centro."</p>
+                    <p class="text-gray-300 text-sm mb-6 italic">"A didática do Código Navalha é incrível. Ele pega na sua mão e ensina o macete do degradê perfeito. Terminei o curso na sexta e na segunda já fui contratado para trampar numa barbearia no centro."</p>
                     <div class="flex items-center gap-4">
                         <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80" alt="Thiago" class="w-12 h-12 rounded-full object-cover">
                         <div>
                             <h5 class="font-bold">Thiago Silva</h5>
-                            <span class="text-xs text-brand-gold">Ex-Aluno, Turma 12</span>
+                            <span class="text-xs text-brand-orange">Ex-Aluno, Turma 6</span>
                         </div>
                     </div>
                 </div>
@@ -313,7 +347,7 @@
                 <!-- Testimonial 3 -->
                 <div class="bg-brand-dark p-8 rounded-2xl relative">
                     <i class="fa-solid fa-quote-right absolute top-6 right-6 text-4xl text-brand-light opacity-50"></i>
-                    <div class="flex text-brand-gold mb-4 text-sm">
+                    <div class="flex text-brand-orange mb-4 text-sm">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                     </div>
                     <p class="text-gray-300 text-sm mb-6 italic">"O melhor investimento que fiz na vida. A parte de gestão de barbearia abriu minha mente. Não é só sobre cortar cabelo, é sobre como tratar o cliente e construir uma carreira de sucesso."</p>
@@ -321,7 +355,7 @@
                         <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&w=100&q=80" alt="Rafael" class="w-12 h-12 rounded-full object-cover">
                         <div>
                             <h5 class="font-bold">Rafael Costa</h5>
-                            <span class="text-xs text-brand-gold">Dono de Barbearia</span>
+                            <span class="text-xs text-brand-orange">Dono de Barbearia</span>
                         </div>
                     </div>
                 </div>
@@ -330,39 +364,39 @@
     </section>
 
     <!-- Final CTA Section -->
-    <section class="py-20 bg-brand-gold relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+    <section class="py-20 bg-brand-orange relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="font-heading text-4xl md:text-5xl font-bold text-brand-dark mb-6">PRONTO PARA MUDAR SUA VIDA?</h2>
-            <p class="text-brand-dark/80 text-xl font-medium mb-10">
+            <p class="text-brand-dark/90 text-xl font-medium mb-10">
                 As vagas para a próxima turma são <strong>limitadas</strong> para garantir a qualidade do ensino prático. Não deixe para depois.
             </p>
             <a href="https://wa.me/5521972832618?text=Quero%20fazer%20minha%20matrícula%20no%20curso%20agora!" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-black text-white text-xl px-10 py-5 rounded-xl font-bold transition-all transform hover:scale-105 shadow-2xl">
                 <i class="fa-brands fa-whatsapp text-brand-whatsapp text-3xl"></i>
                 Falar no WhatsApp e Garantir Vaga
             </a>
-            <p class="mt-6 text-sm text-brand-dark/70 font-semibold"><i class="fa-solid fa-lock mr-2"></i> Atendimento Rápido e Humanizado</p>
+            <p class="mt-6 text-sm text-brand-dark/80 font-semibold"><i class="fa-solid fa-lock mr-2"></i> Atendimento Rápido e Humanizado</p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-brand-dark pt-16 pb-8 border-t border-white/10">
+    <footer class="bg-brand-dark pt-16 pb-8 border-t border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                 
                 <!-- Brand Info -->
                 <div>
-                    <div class="flex items-center gap-2 mb-6">
-                        <i class="fa-solid fa-scissors text-brand-gold text-2xl"></i>
-                        <span class="font-heading font-bold text-2xl tracking-wider text-white uppercase">Seu Xico</span>
+                    <div class="mb-6">
+                        <!-- Logo no rodapé -->
+                        <img src="./images/seu-xico-brand-logo.png" alt="Seu Xico Barbearia" class="h-24 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
                     </div>
                     <p class="text-gray-400 text-sm leading-relaxed mb-6">
                         Formando profissionais de excelência e elevando o padrão da barbearia no Brasil. Venha fazer parte da nossa família.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="https://www.instagram.com/seuxico__?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-gold hover:bg-white/10 transition-all"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100004409051800" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-gold hover:bg-white/10 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-gold hover:bg-white/10 transition-all"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/seuxico__?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-orange hover:bg-white/10 transition-all"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004409051800" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-orange hover:bg-white/10 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@seu_xico?_r=1&_t=ZS-9AE0IcHlS5N" class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-gray-400 hover:text-brand-orange hover:bg-white/10 transition-all"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                 </div>
 
@@ -370,9 +404,10 @@
                 <div>
                     <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Links Rápidos</h4>
                     <ul class="space-y-3">
-                        <li><a href="#metodo" class="text-gray-400 hover:text-brand-gold text-sm transition-colors">O Método</a></li>
-                        <li><a href="#modulos" class="text-gray-400 hover:text-brand-gold text-sm transition-colors">Grade Curricular</a></li>
-                        <li><a href="#instrutor" class="text-gray-400 hover:text-brand-gold text-sm transition-colors">Sobre o Seu Xico</a></li>
+                        <li><a href="#metodo" class="text-gray-400 hover:text-brand-orange text-sm transition-colors">O Método</a></li>
+                        <li><a href="#modulos" class="text-gray-400 hover:text-brand-orange text-sm transition-colors">Grade Curricular</a></li>
+                        <li><a href="#instrutor" class="text-gray-400 hover:text-brand-orange text-sm transition-colors">Sobre o Seu Xico</a></li>
+                        <li><a href="./faq.html" class="text-gray-400 hover:text-brand-orange text-sm transition-colors">Dúvidas Frequentes (FAQ)</a></li>
                     </ul>
                 </div>
 
@@ -381,33 +416,35 @@
                     <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Onde Estamos</h4>
                     <ul class="space-y-4 text-sm text-gray-400">
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-location-dot mt-1 text-brand-gold"></i>
-                            <span>R. Padre Antônio da Costa Carvalho, 1234<br>Parque Ribeira - Cachoeiras de Macacu / RJ</span>
+                            <i class="fa-solid fa-location-dot mt-1 text-brand-orange"></i>
+                            <span>R. Padre Antônio da Costa Carvalho, 267<br>Parque Riberia - Cachoeiras de Macacu / RJ</span>
                         </li>
                         <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-phone text-brand-gold"></i>
+                            <i class="fa-solid fa-phone text-brand-orange"></i>
                             <span>(21) 97283-2618</span>
                         </li>
                         <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-envelope text-brand-gold"></i>
-                            <span>contato@escolaseuxico.com.br</span>
+                            <i class="fa-solid fa-envelope text-brand-orange"></i>
+                            <span>xiquinhobarber94@gmail.com</span>
                         </li>
                     </ul>
                 </div>
             </div>
             
-            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-gray-500 text-xs">
-                    &copy; 2026 Escola de Barbeiros Seu Xico. Todos os direitos reservados.
+            <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-600 text-xs">
+                    &copy; 2026 Seu Xico. Todos os direitos reservados.
                 </p>
-                <div class="text-gray-500 text-xs space-x-4">
-                    <a href="#" class="hover:text-white transition-colors">Termos de Uso</a>
-                    <a href="#" class="hover:text-white transition-colors">Políticas de Privacidade</a>
+                <div class="text-gray-600 text-xs space-x-4">
+                    <a href="./terms.html" class="hover:text-white transition-colors">Termos de Uso</a>
+                    <a href="./privacy.html" class="hover:text-white transition-colors">Políticas de Privacidade</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    
+    <!-- JS -->
     <script src="./js/script.js"></script>
 </body>
 </html>
