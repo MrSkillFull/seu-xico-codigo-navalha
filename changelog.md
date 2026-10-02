@@ -8,10 +8,13 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 - **Formato:** [Keep a Changelog v1.1.0](https://keepachangelog.com/en/1.1.0/)
 - **Versionamento:** [SemVer 2.0.0](https://semver.org/)
 
-
 ## [não publicado]
 
-### adicionado
+## [1.1.1]
+
+### alterado
+
+- substitui a prova visual estática por um slideshow de prêmios na seção "Prêmios & Reconhecimentos" do `index.html`, com as 6 imagens `images/seu-xico-premio-1.jpeg` a `seu-xico-premio-6.jpeg`, avanço automático por intervalo, setas de navegação e indicadores 
 
 ## [v1.1.0] - 2026/10/03
 
