@@ -146,3 +146,99 @@
 .faq-item .faq-answer a:hover {
     color: #ffffff;
 }
+/* =========================================================
+   Slideshow de Prêmios (seção "Prêmios & Reconhecimentos")
+   — prova visual com avanço automático, setas e indicadores.
+   A altura do viewport é ajustada via JS (js/script.js) para
+   respeitar a proporção de cada imagem, exibindo-a por inteiro.
+   ========================================================= */
+.premios-viewport {
+    aspect-ratio: 4 / 3; /* fallback até o JS calcular a proporção real */
+    transition: aspect-ratio 0.4s ease;
+}
+.premios-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* nunca corta a imagem (sem cortes nem barras laterais) */
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+}
+.premios-slide.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Setas de controle */
+.premios-prev,
+.premios-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(244, 126, 32, 0.4);
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+.premios-prev { left: 0.75rem; }
+.premios-next { right: 0.75rem; }
+.premios-prev:hover,
+.premios-next:hover,
+.premios-prev:focus-visible,
+.premios-next:focus-visible {
+    background-color: #F47E20;
+    color: #000000;
+    opacity: 1;
+}
+/* Mostra as setas ao passar o mouse ou focar o slideshow (desktop) */
+#premios-slider:hover .premios-prev,
+#premios-slider:hover .premios-next,
+#premios-slider:focus-within .premios-prev,
+#premios-slider:focus-within .premios-next {
+    opacity: 1;
+}
+/* Em telas de toque, as setas ficam sempre visíveis */
+@media (hover: none) {
+    .premios-prev,
+    .premios-next {
+        opacity: 1;
+    }
+}
+
+/* Indicadores (bolinhas) */
+.premios-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.premios-dot {
+    width: 0.6rem;
+    height: 0.6rem;
+    padding: 0;
+    border: none;
+    border-radius: 9999px;
+    background-color: rgba(244, 126, 32, 0.3);
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+.premios-dot:hover {
+    background-color: rgba(244, 126, 32, 0.6);
+}
+.premios-dot.is-active {
+    background-color: #F47E20;
+    transform: scale(1.25);
+}
