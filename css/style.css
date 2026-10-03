@@ -242,3 +242,18 @@
     background-color: #F47E20;
     transform: scale(1.25);
 }
+/* Slideshow de premios: tamanho minimo no mobile e limite no desktop */
+.premios-viewport {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0; /* evita estouro em contexto flex */
+    aspect-ratio: 9 / 16;
+    min-height: 384px;
+    max-height: 560px;
+    transition: none;
+}
+@media (min-width: 768px) {
+    .premios-viewport {
+        max-height: 600px;
+    }
+}

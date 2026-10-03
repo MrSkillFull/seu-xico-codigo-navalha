@@ -8,15 +8,19 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 - **Formato:** [Keep a Changelog v1.1.0](https://keepachangelog.com/en/1.1.0/)
 - **Versionamento:** [SemVer 2.0.0](https://semver.org/)
 
-## [não publicado]
+## [1.1.2] - 2026/10/03
 
-## [1.1.1]
+### corrigido
+- ajusta o tamanho do slideshow de prêmios para garantir dimensão mínima no mobile e limite no desktop (corrige a proporção que não era aplicada em imagens com lazy loading)
+- limita a largura do slideshow de prêmios ao container pai no mobile (o `aspect-ratio` inflava a largura a partir da altura, fazendo a imagem exceder o pai)
+
+## [1.1.1] - 2026/10/02
 
 ### alterado
 
 - substitui a prova visual estática por um slideshow de prêmios na seção "Prêmios & Reconhecimentos" do `index.html`, com as 6 imagens `images/seu-xico-premio-1.jpeg` a `seu-xico-premio-6.jpeg`, avanço automático por intervalo, setas de navegação e indicadores 
 
-## [v1.1.0] - 2026/10/03
+## [v1.1.0] - 2026/10/02
 
 ### adicionado
 - adiciona favicons a `index.html`, `terms.html`, `privacy.html` e `faq.html`

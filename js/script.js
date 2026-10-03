@@ -56,18 +56,13 @@ window.addEventListener('scroll', () => {
     let hoverPaused = false;
     let focusPaused = false;
 
-    // Ajusta a altura do viewport conforme a proporção da imagem ativa,
-    // exibindo-a por inteiro (sem cortes nem barras laterais).
+    // Usa a proporcao intrinseca: prefere os atributos width/height
+    // (ja disponiveis) para nao depender do carregamento lento (lazy).
     function updateAspect(slide) {
-        const apply = () => {
-            if (slide.naturalWidth && slide.naturalHeight) {
-                viewport.style.aspectRatio = slide.naturalWidth + ' / ' + slide.naturalHeight;
-            }
-        };
-        if (slide.complete) {
-            apply();
-        } else {
-            slide.addEventListener('load', apply, { once: true });
+        const w = slide.naturalWidth || parseInt(slide.getAttribute('width'), 10);
+        const h = slide.naturalHeight || parseInt(slide.getAttribute('height'), 10);
+        if (w && h) {
+            viewport.style.aspectRatio = w + ' / ' + h;
         }
     }
 
