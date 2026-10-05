@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página inicial: atualizada na versão 1.2.0 (05/10/2026) -->
   <url>
     <loc>https://mrskillfull.github.io/seu-xico-codigo-navalha/</loc>
     <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
+  <!-- Página de FAQ: criada/atualizada na versão 1.1.0 (02/10/2026) -->
   <url>
     <loc>https://mrskillfull.github.io/seu-xico-codigo-navalha/faq.html</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-02</lastmod>
   </url>
+  <!-- Página de Privacidade: criada/atualizada na versão 1.1.0 (02/10/2026) -->
   <url>
     <loc>https://mrskillfull.github.io/seu-xico-codigo-navalha/privacy.html</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-10-02</lastmod>
   </url>
+  <!-- Página de Termos: criada/atualizada na versão 1.1.0 (02/10/2026) -->
   <url>
     <loc>https://mrskillfull.github.io/seu-xico-codigo-navalha/terms.html</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-10-02</lastmod>
   </url>
 </urlset>
