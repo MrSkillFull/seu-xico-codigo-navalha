@@ -22,9 +22,14 @@ o visitante para o atendimento via **WhatsApp**.
 | Arquivo | Descrição |
 |---------|-----------|
 | `index.html` | Landing page principal (hero, método, grade, instrutor, depoimentos, CTA) |
-| `termos.html` | Termos de Uso do site |
-| `privacidade.html` | Política de Privacidade (LGPD) |
-| `faq.html` | Dúvidas Frequentes (FAQ) em acordeão |
+| `faq.html` | Dúvidas Frequentes (FAQ) em acordeão + FAQPage JSON-LD |
+| `terms.html` | Termos de Uso do site |
+| `privacy.html` | Política de Privacidade (LGPD) |
+| `404.html` | Página de erro 404 estilizada |
+| `robots.txt` | Diretrizes de rastreamento + sitemap |
+| `sitemap.xml` | Mapa do site para Google/Bing |
+| `favicon.ico` | Favicon do site |
+| `etapas_manuais.md` | Tarefas manuais de SEO (Search Console, Perfil da Empresa etc.) |
 
 ## 🛠️ Tecnologias
 

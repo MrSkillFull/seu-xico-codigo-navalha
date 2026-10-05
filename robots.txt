@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrskillfull.github.io/seu-xico-codigo-navalha/sitemap.xml

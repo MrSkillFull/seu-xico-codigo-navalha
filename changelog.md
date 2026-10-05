@@ -1,12 +1,31 @@
 # Changelog
 
 > [!important]
-> Ultima atualização: `02-10-2026`
+> Ultima atualização: `06-10-2026`
 
 Todos as alterações importantes do projeto são registradas neste arquivo, de forma cronologica e reversa. Esse arquivo segue os seguintes padrões:
 
 - **Formato:** [Keep a Changelog v1.1.0](https://keepachangelog.com/en/1.1.0/)
 - **Versionamento:** [SemVer 2.0.0](https://semver.org/)
+
+## [1.2.0] - 2026/10/05
+
+### adicionado
+
+- adiciona `robots.txt`, `sitemap.xml` e página `404.html` para indexação
+- adiciona canonical, meta robots, Open Graph e Twitter Card nas 4 páginas
+- adiciona JSON-LD `BarberShop + Course + Organization + WebSite` no `index.html` e `FAQPage` no `faq.html`
+- adiciona `favicon.ico`, `images/apple-touch-icon.png` e `images/og-cover.jpg` (1200x630)
+
+### alterado
+
+- reescreve titles e descriptions com foco em "Código Navalha", "Seu Xico" e "Cachoeiras de Macacu RJ"
+- reescreve `alt` das imagens com contexto do curso e adiciona dimensões corretas do slider
+- marca endereço com `<address>`, link "Ver no mapa" (Google Maps), `tel:` e `mailto:`
+
+### corrigido
+
+- otimiza imagens em `images/` (prêmios, logo, retrato): 5273KB para 1700KB, economia de 68%
 
 ## [1.1.2] - 2026/10/03
 
