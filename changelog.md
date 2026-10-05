@@ -8,6 +8,12 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 - **Formato:** [Keep a Changelog v1.1.0](https://keepachangelog.com/en/1.1.0/)
 - **Versionamento:** [SemVer 2.0.0](https://semver.org/)
 
+## [1.2.1] - 2026/10/05
+
+## adicionado
+
+- adiciona arquivo de verificação do Google Search Console a raíz do projeto
+
 ## [1.2.0] - 2026/10/05
 
 ### adicionado

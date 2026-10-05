@@ -29,7 +29,7 @@ o visitante para o atendimento via **WhatsApp**.
 | `robots.txt` | Diretrizes de rastreamento + sitemap |
 | `sitemap.xml` | Mapa do site para Google/Bing |
 | `favicon.ico` | Favicon do site |
-| `etapas_manuais.md` | Tarefas manuais de SEO (Search Console, Perfil da Empresa etc.) |
+| `google52acd7fc273e1a81.html` | Arquivo de verificação do Google Search Console |
 
 ## 🛠️ Tecnologias
 
