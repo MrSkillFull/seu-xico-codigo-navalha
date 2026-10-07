@@ -8,11 +8,42 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 - **Formato:** [Keep a Changelog v1.1.0](https://keepachangelog.com/en/1.1.0/)
 - **Versionamento:** [SemVer 2.0.0](https://semver.org/)
 
+## [1.3.0] - 2026/10/07
+
+### adicionado
+
+- adiciona seção `#investimento` no `index.html` com 2 cards (à vista R$ 2.000 / cartão 10x de R$ 250, total R$ 2.500), duração de 4 meses e CTAs de WhatsApp por opção
+- adiciona `hasCourseInstance` (`courseDuration: P4M`) e `offers` (BRL 2000) ao JSON-LD `Course` do `index.html`
+- adiciona perguntas de duração (4 meses) e preço (R$ 2.000 / 10x R$ 250) ao JSON-LD `FAQPage` do `faq.html`
+- readiciona ícone de dispositivos Apple Touch que foi removido acientalmente anteriormente
+
+### alterado
+
+- atualiza Hero, `#modulos` e CTA final do `index.html` com duração de 4 meses e valores
+- atualiza respostas de duração e preço no `faq.html`, removendo os TODOs desses tópicos
+- atualiza §5 dos `terms.html` para "Informações sobre o Curso e Condições Comerciais" (4 meses, R$ 2.000 à vista, 10x fixas, Contrato de Matrícula prevalece) e data para outubro de 2026
+- atualiza brand-logo para nova versão
+
+### removido
+
+- remove ícone de dispositivos Apple Touch
+
+
+## [1.2.2] - 2026/10/06
+
+## modificado
+
+- Reescreve o sitemap para remover tags ignoradas pelo Google Search Console e corrigir datas de `<lastmod>`.
+
+---
+
 ## [1.2.1] - 2026/10/05
 
 ## adicionado
 
 - adiciona arquivo de verificação do Google Search Console a raíz do projeto
+
+---
 
 ## [1.2.0] - 2026/10/05
 
@@ -33,17 +64,23 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 
 - otimiza imagens em `images/` (prêmios, logo, retrato): 5273KB para 1700KB, economia de 68%
 
+---
+
 ## [1.1.2] - 2026/10/03
 
 ### corrigido
 - ajusta o tamanho do slideshow de prêmios para garantir dimensão mínima no mobile e limite no desktop (corrige a proporção que não era aplicada em imagens com lazy loading)
 - limita a largura do slideshow de prêmios ao container pai no mobile (o `aspect-ratio` inflava a largura a partir da altura, fazendo a imagem exceder o pai)
 
+---
+
 ## [1.1.1] - 2026/10/02
 
 ### alterado
 
 - substitui a prova visual estática por um slideshow de prêmios na seção "Prêmios & Reconhecimentos" do `index.html`, com as 6 imagens `images/seu-xico-premio-1.jpeg` a `seu-xico-premio-6.jpeg`, avanço automático por intervalo, setas de navegação e indicadores 
+
+---
 
 ## [v1.1.0] - 2026/10/02
 
@@ -63,6 +100,8 @@ Todos as alterações importantes do projeto são registradas neste arquivo, de 
 - aponta os links do rodapé de Termos de Uso, Política de Privacidade e FAQ para as novas páginas
 - corrige a nomenclatura no `index.html` e no `readme.md` (marca "Seu Xico"; curso "Código Navalha")
 - corrige o `<title>` e a meta description da página inicial
+
+---
 
 ## [1.0.0] - 2026/10/02
 
